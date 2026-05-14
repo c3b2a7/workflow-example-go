@@ -2,7 +2,7 @@
 
 A minimal Go CLI repository that demonstrates a complete build, install, and release workflow.
 
-The repository is mainly useful as a template for Go projects that need cross-platform release
+This repository is mainly useful as a template for Go projects that need cross-platform release
 artifacts, GitHub release publishing, and an install script with optional artifact attestation verification.
 
 ## Installation
@@ -15,10 +15,10 @@ Install the latest release into `./bin`:
 curl -sSfL https://get.lolico.me/workflow-example-go | sh
 ```
 
-Install a specific release into `/usr/local/bin`:
+Install a specific release into `~/.local/bin`:
 
 ```sh
-curl -fsSL https://get.lolico.me/workflow-example-go | sh -s -- -b /usr/local/bin -d v0.1.0
+curl -fsSL https://get.lolico.me/workflow-example-go | sh -s -- -b ~/.local/bin -d v0.1.0
 ```
 
 Install script options:
